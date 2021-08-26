@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="eng-us">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'breathing_room_app/base-styles.css' %}">
+    
+    {% if title %}
+        <title>...breathing room... - {{ title }}</title>
+    {% else %}
+        <title>...breathing room...</title>
+    {% endif %}
+
+</head>
+<body>
+  <header>
+    <h3>...breathing room...</h3>
+  </header>
+
+  {% block content %}{% endblock content %}
+  
+  <footer>
+    <div class="subheader-links">
+      <a href="{% url 'breathing_room_app:index' %}">Home</a>
+      <a href="{% url 'breathing_room_app:exercises' %}">Breathing exercises</a>
+    </div>
+  </footer>
+</body>
+</html> 

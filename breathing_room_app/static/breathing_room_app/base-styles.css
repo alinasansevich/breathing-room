@@ -1,0 +1,24 @@
+/*
+Zen color palette:
+#0C343D - almost black
+#DDDDDD - gray
+#343434 - dark gray - almost black
+#F7FFF7 - almost white
+*/
+
+html {
+  background-color: #DDDDDD;
+}
+header {
+  color: #F7FFF7;
+  background-color: #0C343D;
+}
+footer {
+  color: #F7FFF7;
+  background-color: #0C343D;
+}
+footer a {
+  color: #F7FFF7;
+  background-color: #0C343D;
+  padding: 0 20px;
+}
