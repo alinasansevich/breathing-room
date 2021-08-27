@@ -5,14 +5,21 @@ Zen color palette:
 #343434 - dark gray - almost black
 #F7FFF7 - almost white
 #060403 - dark wood
+
+https://fonts.google.com/
+font-family: 'Julee', cursive;
+font-family: 'Josefin Sans', sans-serif;
+
 */
 
 html {
   background-color: #DDDDDD;
+  font-family: 'Josefin Sans', sans-serif;
 }
 header {
   color: #F7FFF7;
   background-color: #0C343D;
+  font-family: 'Julee', cursive;
 }
 footer {
   color: #F7FFF7;
@@ -20,6 +27,8 @@ footer {
 }
 footer a {
   color: #F7FFF7;
+  font-family: 'Julee', cursive;
+  text-decoration: none;
   background-color: #0C343D;
   padding: 0 20px;
 }
